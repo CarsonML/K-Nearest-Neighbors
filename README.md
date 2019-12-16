@@ -8,4 +8,4 @@ The preprocessing.py file processes the raw data, reading the csv's and stemming
 The run_lyrics.py and run_poetry.py classify the lyrics and poetry respectivley. They use a K Nearest Neigbors algorithm, that is taking the most common classification among the k points nearest to a given point, in order to classify a given lyric/poem. The overall accuracy result is an average of accuracy on several different folds.
 
 # Data
-The lyrics.csv and all.csv file hold the lyrics and poetry data respetively. The data is somewhat dirty, hence the need for preprocessing.py
+The lyrics.csv and all.csv file hold the lyrics and poetry data respetively. The data is somewhat dirty, hence the need for preprocessing.py. It is important to note that the lyrics data only contains a small sample of data; the full dataset is too big for github
